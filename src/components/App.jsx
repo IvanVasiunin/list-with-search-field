@@ -1,9 +1,9 @@
-import Users from './Users';
+import UserFinder from './UserFinder';
 
 function App() {
   return (
     <div>
-      <Users />
+      <UserFinder />
     </div>
   );
 }
