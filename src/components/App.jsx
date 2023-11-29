@@ -1,16 +1,11 @@
-export const App = () => {
+import Users from './Users';
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Users />
     </div>
   );
-};
+}
+
+export default App;
